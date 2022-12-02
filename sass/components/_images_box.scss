@@ -1,0 +1,20 @@
+.images-box {
+    display: flex;
+    letter-spacing: 0;
+}
+
+.images-box__item {
+    display: inline-flex;
+    margin-bottom: 30px;
+    list-style: none;
+    width: 270px;
+    height: 120px;
+    background-color: var(--beige);
+    justify-content: center;
+    align-items: center;
+    margin-right: 26px;
+
+    &:last-child {
+        margin-right: 0;
+    }
+}

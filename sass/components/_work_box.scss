@@ -1,0 +1,26 @@
+.work__list {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.work__item {
+    display: flex;
+    list-style-type: none;
+    position: relative;
+}
+
+.work__text {
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    font-size: 14px;
+    line-height: 1.14;
+    font-weight: 700;
+    color: var(--white);
+    background-color: var(--work-background);
+    width: 370px;
+    height: 70px;
+    align-items: center;
+    justify-content: center;
+}

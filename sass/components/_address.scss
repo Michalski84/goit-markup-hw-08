@@ -1,0 +1,39 @@
+.address {
+    margin-right: 70px;
+}
+
+.address__box {
+    font-style: inherit;
+    padding-top: 11px;
+    letter-spacing: 0, 03em;
+    line-height: 24px;
+}
+
+.address__list {
+    list-style-type: none;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    color: var(--white);
+}
+
+.address__link {
+    text-decoration: none;
+    font-family: inherit;
+    font-style: normal;
+    color: var(--white);
+    filter: opacity(60%);
+    line-height: 24px;
+
+    &:hover {
+        color: var(--light-blue);
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    &:focus {
+        color: var(--light-blue);
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    }
+}
