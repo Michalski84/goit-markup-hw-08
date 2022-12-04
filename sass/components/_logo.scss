@@ -9,8 +9,18 @@
     line-height: 1.4;
     letter-spacing: 0.03em;
     width: 270;
-    margin-right: 94px;
+    margin-right: 276px;
     margin-block: 22px;
+
+    @media screen and (min-width:768px) {
+        margin-right: 83px;
+        
+    }
+
+     @media screen and (min-width:1200px) {
+        margin-right: 94px;
+    
+    }
 }
 
 .logo__text {

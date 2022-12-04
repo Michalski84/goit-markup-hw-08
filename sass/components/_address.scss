@@ -1,20 +1,45 @@
 .address {
-    margin-right: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    @media screen and (min-width:768px) {
+        margin-left: 70px;
+        margin-right: 165px;
+        margin-bottom: 60px;
+    }
+
+    @media screen and (min-width:1200px) {
+            margin-right: 70px;
+            display: block;
+            margin-bottom: 0;
+            margin-left: 0;
+        }
 }
 
 .address__box {
     font-style: inherit;
-    padding-top: 11px;
+    // padding-top: 11px;
     letter-spacing: 0, 03em;
     line-height: 24px;
+
+@media screen and (min-width:1200px) {
+    padding-top: 20px;
+}
+
 }
 
 .address__list {
     list-style-type: none;
     font-size: 14px;
-    line-height: 1.7;
+    line-height: 2;
     letter-spacing: 0.03em;
     color: var(--white);
+    text-align: center;
+
+    @media screen and (min-width:1200px) {
+        text-align: left;
+    }
 }
 
 .address__link {
