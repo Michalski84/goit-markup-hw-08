@@ -66,10 +66,12 @@
 }
 
 .navigation__menu-btn {
+    display: flex;
+    display: inline-flex;
     border: 0;
     background-color: var(--white);
     padding: 0;
-    margin-right: 15px;
+    // margin-right: 15px;
     cursor: pointer;
 
     &:hover {
@@ -82,7 +84,7 @@
 }
 
 .navigation__menu-icon {
-    margin-top: 5px;
+    // margin-top: 5px;
 
     @media screen and (min-width:768px) {
         display: none;
@@ -91,4 +93,9 @@
     @media screen and (min-width:1200) {
         display: none;
     }
+}
+
+.navigation__logo {
+    display:flex;
+    align-items: center;
 }
