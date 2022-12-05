@@ -5,7 +5,7 @@
     background-position: center;
     background-size: cover;
     max-width: 1600px;
-    // height: 600px;
+    height: 400px;
     margin: 0 auto;
     box-sizing: border-box;
     background-image: linear-gradient(var(--shadow-1), var(--shadow-2)), url(../images/background-mobile-x1.jpg);
@@ -31,6 +31,7 @@
     
         @media screen and (min-width: 1200px) {
             max-width: 1600px;
+            height: 600px;
             margin: 0 auto;
             padding: 200px 0;
             background-image: linear-gradient(var(--shadow-1), var(--shadow-2)),

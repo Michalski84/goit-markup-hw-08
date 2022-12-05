@@ -9,16 +9,18 @@
     line-height: 1.4;
     letter-spacing: 0.03em;
     width: 270;
-    margin-right: 100%;
-    margin-block: 22px;
+    margin-right: auto;
+    margin-block: 16px;
 
     @media screen and (min-width:768px) {
         margin-right: 83px;
+        margin-block: 22px;
         
     }
 
      @media screen and (min-width:1200px) {
         margin-right: 94px;
+        margin-block: 22px;
     
     }
 }
