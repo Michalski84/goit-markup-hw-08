@@ -8,7 +8,7 @@
     // flex-basis: calc((100% - 90px) / 4);
 
     @media screen and (min-width: 768px) {
-          margin-bottom: 0;
+          margin-bottom: -34px;
     
         }
     
@@ -26,7 +26,7 @@
     list-style: none;
     // display: flex;
     margin-bottom: 45px;
-    
+
     @media screen and (min-width: 768px) {  
         display: flex;
         flex-wrap: wrap;
